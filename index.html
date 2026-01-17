@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mayuresh Gharat | Data Analyst Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary:#2563eb;
+      --dark:#0f172a;
+      --light:#f8fafc;
+      --gray:#64748b;
+    }
+
+    * {
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Poppins',sans-serif;
+    }
+
+    body {
+      background:var(--light);
+      color:#1e293b;
+      line-height:1.7;
+    }
+
+    header {
+      background:linear-gradient(135deg,#0f172a,#1e293b);
+      color:#fff;
+      padding:60px 20px;
+      display:flex;
+      gap:35px;
+      justify-content:center;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+
+    .profile-pic {
+      width:160px;
+      height:160px;
+      border-radius:50%;
+      object-fit:cover;
+      border:4px solid #93c5fd;
+    }
+
+    .header-info h1 {
+      font-size:3rem;
+      font-weight:700;
+    }
+
+    .header-info p {
+      color:#cbd5f5;
+      font-size:1.2rem;
+      margin-top:10px;
+    }
+
+    .contact {
+      margin-top:20px;
+      font-size:0.95rem;
+    }
+
+    .contact a {
+      color:#93c5fd;
+      text-decoration:none;
+      margin:0 8px;
+    }
+
+    nav {
+      position:sticky;
+      top:0;
+      background:#fff;
+      padding:15px;
+      text-align:center;
+      box-shadow:0 2px 8px rgba(0,0,0,0.08);
+      z-index:1000;
+    }
+
+    nav a {
+      margin:0 15px;
+      text-decoration:none;
+      font-weight:600;
+      color:var(--dark);
+    }
+
+    nav a:hover { color:var(--primary); }
+
+    section {
+      max-width:1100px;
+      margin:auto;
+      padding:70px 20px;
+    }
+
+    section h2 {
+      font-size:2.2rem;
+      margin-bottom:30px;
+      border-left:6px solid var(--primary);
+      padding-left:15px;
+    }
+
+    .grid {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:25px;
+    }
+
+    .card {
+      background:#fff;
+      padding:25px;
+      border-radius:15px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      color:var(--primary);
+      margin-bottom:10px;
+    }
+
+    ul {
+      padding-left:20px;
+      margin-top:10px;
+    }
+
+    .experience {
+      background:#f1f5f9;
+      padding:30px;
+      border-radius:15px;
+    }
+
+    .resume-box {
+      background:linear-gradient(135deg,#2563eb,#1d4ed8);
+      color:#fff;
+      padding:40px;
+      border-radius:20px;
+      text-align:center;
+    }
+
+    .resume-box a {
+      display:inline-block;
+      background:#fff;
+      color:#1e3a8a;
+      padding:12px 25px;
+      border-radius:30px;
+      margin:10px;
+      text-decoration:none;
+      font-weight:600;
+    }
+
+    footer {
+      background:var(--dark);
+      color:#fff;
+      text-align:center;
+      padding:30px 20px;
+    }
+
+    footer a {
+      color:#93c5fd;
+      text-decoration:none;
+      margin:0 10px;
+    }
+
+    @media(max-width:800px){
+      header { flex-direction:column; text-align:center; }
+      .header-info h1 { font-size:2.2rem; }
+      .profile-pic { width:120px; height:120px; }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <img src="C:\Users\mayur\Downloads\Portfolio-Website-Template-main\Portfolio-Website-Template-main\mayuresh_linkedin_dp copy.png" alt="Mayuresh Gharat" class="profile-pic">
+
+  <div class="header-info">
+    <h1>Mayuresh Gharat</h1>
+    <p>Data Analyst | Power BI | Python | SQL | Advanced Excel</p>
+
+    <div class="contact">
+      📍 Maharashtra, India |
+      📧 <a href="mailto:mayureshgharat990@gmail.com">Email</a>
+      🔗 <a href="https://www.linkedin.com/in/mayuresh-gharat-478182220" target="_blank">LinkedIn</a>
+      💻 <a href="https://github.com/Mayuresh990" target="_blank">GitHub</a>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#certifications">Certifications</a>
+  <a href="#resume">Resume</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    Data Analyst with a B.Tech in Electronics & Telecommunication Engineering (2024),
+    experienced in transforming raw datasets into actionable business insights.
+    Skilled in SQL, Python, Power BI, Tableau, Excel, and statistical analysis,
+    with hands-on experience in dashboarding, KPI tracking, data modeling,
+    automation, and machine learning fundamentals.
+  </p>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="card">
+    <h3>B.Tech – Electronics & Telecommunication Engineering</h3>
+    <p>Dr. Babasaheb Ambedkar Technological University, Lonere</p>
+    <p>Graduated: 2024</p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Programming & Querying</h3>
+      <p>SQL, Python, DAX, VBA</p>
+    </div>
+    <div class="card">
+      <h3>Data Visualization Tools</h3>
+      <p>Power BI, Tableau, Advanced MS Excel, Google Sheets, Jupyter Notebook</p>
+    </div>
+    <div class="card">
+      <h3>Analytical Abilities</h3>
+      <p>Data Cleaning, Exploratory Data Analysis (EDA), Report Automation,
+         Data Modeling, Insight Generation</p>
+    </div>
+    <div class="card">
+      <h3>Machine Learning & Statistics</h3>
+      <p>Machine Learning Fundamentals, Statistical Analysis, Trend Analysis</p>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="experience">
+    <h3>Data Analyst Intern – Prognoz Technologies Pvt. Ltd.</h3>
+    <p><em>Jan 2025 – Jul 2025 | Tools: SQL, Python, Excel, Power BI</em></p>
+    <ul>
+      <li>Enhanced data accuracy across 250,000+ records using Python (Pandas) and Excel.</li>
+      <li>Built Excel templates with advanced formulas and pivot tables, reducing reporting time by 40%.</li>
+      <li>Developed interactive Power BI dashboards for sales, customer trends, and KPIs.</li>
+      <li>Wrote complex SQL queries for revenue segmentation and customer behavior analysis.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Maven Market – Store Insights & Returns Analysis</h3>
+      <p><strong>Tools:</strong> Power BI, Tableau, Excel, Google Sheets</p>
+      <ul>
+        <li>Processed 269,000+ transactions across 250 stores and 1,500+ products.</li>
+        <li>Designed snowflake schema with DAX measures and Tableau calculated fields.</li>
+        <li>Calculated KPIs including Total Revenue ($1.76M) and Return Rate (0.99%).</li>
+        <li>Identified brands contributing 60% of total revenue.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Interactive Sales Performance Dashboard</h3>
+      <p><strong>Tools:</strong> Power BI, Python, Excel</p>
+      <ul>
+        <li>Built dashboards tracking regional and category-wise sales performance.</li>
+        <li>Improved data accuracy through Python and Excel preprocessing.</li>
+        <li>Identified Home Appliances generating 34% of total revenue.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>E-Commerce Revenue & Behavior Analysis</h3>
+      <p><strong>Tools:</strong> SQL, Python, Excel</p>
+      <ul>
+        <li>Analyzed revenue by product category and geography using SQL.</li>
+        <li>Cleaned transaction data using Pandas, improving quality by 98%.</li>
+        <li>Created visualizations using Matplotlib and Seaborn.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Awards & Certifications</h2>
+  <ul>
+    <li>Microsoft Career Essentials in Data Analysis – 2024</li>
+    <li>Accenture & Forage Data Analytics Simulation – 2024</li>
+    <li>Avishkar Innovation Competition – Institute & Zonal Level (2023)</li>
+    <li>Mentored 120+ university juniors on Python, Power BI & analytics tools</li>
+  </ul>
+</section>
+
+<section id="resume">
+  <h2>Resume</h2>
+  <div class="resume-box">
+    <p>View or download my latest resume</p>
+    <a href="https://drive.google.com/file/d/1fIDG6WuswoQbuzhWzNwOu7JMQET9mmP8/view" target="_blank">View Resume</a>
+    <a href="https://drive.google.com/uc?export=download&id=1fIDG6WuswoQbuzhWzNwOu7JMQET9mmP8">Download Resume</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Mayuresh Gharat |
+  <a href="mailto:mayureshgharat990@gmail.com">Email</a> |
+  <a href="https://github.com/Mayuresh990" target="_blank">GitHub</a>
+</footer>
+
+</body>
+</html>
